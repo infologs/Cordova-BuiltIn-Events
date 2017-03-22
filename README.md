@@ -3,7 +3,8 @@
 This video will help you to understand how to use the default events provided by the cordova.
 
 
-<img src="https://github.com/infologs/Cordova-BuiltIn-Events/blob/master/platforms/android/res/drawable-hdpi/icon.png" />
+<img src="https://github.com/infologs/Cordova-BuiltIn-Events/blob/master/deviceready-event.png" width="320px" height="480" />
+<img src="https://github.com/infologs/Cordova-BuiltIn-Events/blob/master/volume.png" width="320px" height="480" />
 
 Follow us on social media
 
