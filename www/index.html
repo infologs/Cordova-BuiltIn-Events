@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">        
+        <title>Hello World</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            /* As soon as the cordova is loaded then this event will be fired */
+            function onDeviceReady() {
+                document.addEventListener("pause", onPause, false);
+                document.addEventListener("resume", onResume, false);
+                document.addEventListener("backbutton", onBackbutton, false);     
+                document.addEventListener("menubutton", onMenubutton, false);
+                document.addEventListener("volumeupbutton", onVolumeupbutton, false);
+                document.addEventListener("volumedownbutton", onVolumedownbutton, false);
+
+                alert("Device ready event fired..");
+            }
+
+            /* Fired when  app goes into the background mode */
+            function onPause() {
+                alert("Fired on Pause event.");
+            }
+
+            /* Fired when  application come to foreground */
+            function onResume() {
+                alert("Fired Resume event.");
+            }
+
+            /* Fired when  user press backbutton in android */
+            function onBackbutton() {
+                alert("Press back button.");
+            }
+
+            /* Fired when pressed menu button it's for old Android version */
+            function onMenubutton() {
+                alert("Menu Button pressed.");
+            }
+
+            /* Fired when  you incress the vaolume */
+            function onVolumeupbutton() {
+                alert("Volume up button pressed.");
+            }
+
+            /* Fired when you decrease the volume*/
+            function onVolumedownbutton() {
+                alert("volume Down button press.")
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1>Check the script tag for more info about the device events.</h1>
+    </body>
+</html>
