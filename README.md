@@ -23,8 +23,4 @@ http://webboostings.blogspot.in/
 
 Thanks
 
-<<<<<<< HEAD
-Infologs Team,
-=======
 Infologs Team.
->>>>>>> 1b36174b9b8dab2916766ada57f070c68a5ee153
